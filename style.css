@@ -2,12 +2,9 @@
   margin: 0;
   padding: 0 ;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
 }
-body{
-  max-width: 1220px;
-  margin: 0 auto;
-}
+
 /*-===== sheared =====-div */
 .flex_column{
   display: flex;
@@ -17,11 +14,12 @@ body{
 }
   /* header banner area start */
 .banner_container{
+  width: 94%;
   min-height: 600px;
-  margin: 30px 0;
+  margin: 3% 3%;
   background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(images/Banner\ Image.png) ;
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 16px;
 
@@ -49,3 +47,78 @@ body{
 /*=== header area end ====*/
 
 /*=========  main area start ==========*/
+
+  /*=====- frist_section -=========*/
+.frist_section{
+  width: 50%;
+  margin: 0 auto;
+}
+.frist_text_area{
+  text-align: center;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+}
+.text_area_p1{
+color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 70px;
+line-height: 130px;
+letter-spacing: 0%;
+}
+.text_area_p2{
+  font-size: 16px;
+}
+.text_area_p3{
+  font-size: 34px;
+  color: rgb(30, 30, 30);
+  margin-bottom: 30px;
+}
+
+.frist_section img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*-======== second section -=========*/
+.section_two{
+  width: 94%;
+  min-height: 580px;
+  margin: 7% 3%;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(images/Vectorrr.png) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_two_container{
+  width: 50%;
+  color: aliceblue;
+  padding: 30px;
+  text-align: left;
+}
+.section_two_header{
+  font-size: 60px;
+  letter-spacing: 10px;
+  line-height: 80px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.section_two_discribsion{
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 25px;
+}
+.section_two_btn{
+  padding: 10px 18px;
+  margin: 20px auto;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.section_two_img{
+  width: 40%;
+  text-align: center;
+}
