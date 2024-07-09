@@ -8,6 +8,13 @@ body{
   max-width: 1220px;
   margin: 0 auto;
 }
+/*-===== sheared =====-div */
+.flex_column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   /* header banner area start */
 .banner_container{
   min-height: 600px;
@@ -17,20 +24,12 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 }
 .banner_text_area{
   width: 632px;
   height: 248px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 40px;
-
+  line-height: 40px;;
 }
 .banner_text_area{
   font-size: 32px;
