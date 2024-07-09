@@ -4,3 +4,49 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+body{
+  max-width: 1220px;
+  margin: 0 auto;
+}
+  /* header banner area start */
+.banner_container{
+  min-height: 600px;
+  margin: 30px 0;
+  background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(images/Banner\ Image.png) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner_text_area{
+  width: 632px;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+
+}
+.banner_text_area{
+  font-size: 32px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+.banner_text_area h1{
+  font-size: 72px;
+  text-align: center;
+  line-height: 95px;
+  color: rgb(255, 255, 255)
+  font-weight: 900;
+}
+/*=== header area end ====*/
+
+/*=========  main area start ==========*/
